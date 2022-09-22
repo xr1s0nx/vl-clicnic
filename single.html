@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="RU">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <title>VL-CLINIC</title>
+
+      <link rel="stylesheet" href="css/normalize.css" />
+      <link rel="stylesheet" href="css/fonts.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap" rel="stylesheet" />
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+      <link rel="stylesheet" href="css/lightbox.min.css" />
+      <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+      <link href="css/foundation.css" rel="stylesheet" type="text/css" />
+      <link href="css/twentytwenty.css" rel="stylesheet" type="text/css" />
+      <link rel="stylesheet" href="css/style.css" />
+   </head>
+   <body>
+      <div class="popUpNews">
+         <div class="container">
+            <a onclick="closeNews()" class="close__btn">< НАЗАД</a>
+            <h2 class="title">НОВОСТИ</h2>
+            <div class="swiper specialists_slider">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                     <img src="img/newsImg1.jpg" alt="specialist" />
+                     <p class="specialists_name">Оказываем весь спектр косметологических услуг</p>
+                     <span class="specialists_info"
+                        >Такие как аппаратная косметология на новейшем диодном аппарате MeDioStar, MeDioStar, на аппарате MeDioStar (динамическая
+                        мышечная активация)</span
+                     >
+                     <a href="#" class="newsBtn">Читать далее</a>
+                  </div>
+                  <div class="swiper-slide">
+                     <img src="img/newsImg2.jpg" alt="specialist" />
+                     <p class="specialists_name">Оказываем весь спектр косметологических услуг</p>
+                     <span class="specialists_info"
+                        >Такие как аппаратная косметология на новейшем диодном аппарате MeDioStar, MeDioStar, на аппарате MeDioStar (динамическая
+                        мышечная активация)</span
+                     >
+                     <a href="#" class="newsBtn">Читать далее</a>
+                  </div>
+                  <div class="swiper-slide">
+                     <img src="img/newsImg3.jpg" alt="specialist" />
+                     <p class="specialists_name">Оказываем весь спектр косметологических услуг</p>
+                     <span class="specialists_info"
+                        >Такие как аппаратная косметология на новейшем диодном аппарате MeDioStar, MeDioStar, на аппарате MeDioStar (динамическая
+                        мышечная активация)</span
+                     >
+                     <a href="#" class="newsBtn">Читать далее</a>
+                  </div>
+                  <div class="swiper-slide">
+                     <img src="img/newsImg3.jpg" alt="specialist" />
+                     <p class="specialists_name">Оказываем весь спектр косметологических услуг</p>
+                     <span class="specialists_info"
+                        >Такие как аппаратная косметология на новейшем диодном аппарате MeDioStar, MeDioStar, на аппарате MeDioStar (динамическая
+                        мышечная активация)</span
+                     >
+                     <a href="#" class="newsBtn">Читать далее</a>
+                  </div>
+               </div>
+               
+            </div>
+            <div class="nav-btns">
+               <a class="specialists_prev">
+                  <img src="img/newsArr.svg" alt="">
+               </a>
+               <a class="specialists_next">
+                  <img src="img/newsArr.svg" alt="">
+               </a>
+               
+            </div>
+         </div>
+      </div>
+      <div class="popUp1">
+         <div class="container">
+            <a onclick="closePopUp1()" class="close__btn">< НАЗАД</a>
+            <div class="popUp__content">
+               <div class="left__side">
+                  <h3 class="title">Микроугольчатый RF - лифтинг</h3>
+                  <p class="text">
+                     Аппаратная процедура, где радиочастотная RF - энергия поступаетнепосредственно в кожу, на заданную глубину с помощью аппликатора
+                     с тончайшими микроиглами<br /><br />
+                     Показания: Мешки под глазами, рубцевания и шрамы, пигментные пятна, первые признаки старения, расширенные поры
+                     <br /><br />Эффект: Подтянутые щеки, избавление от морщин, естественное насыщение белком, ликвидация рубцов и высыпаний
+                  </p>
+                  <div class="btns">
+                     <div class="nav__btn">
+                        <a href="#" class="btn__item">Описание</a>
+                        <a href="#" class="btn__item">Цены</a>
+                        <a href="#" class="btn__item">Отзывы</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="right__side">
+                  <div class="twentytwenty-container">
+                     <img style="height: 450px" src="img/gallery-3.png" alt="" />
+                     <img style="height: 450px" src="img/gallery-4.png" alt="" />
+                  </div>
+                  <a onclick="openPopUp2()" class="btn">ЗАПИСАТЬСЯ НА КОНСУЛЬТАЦИЮ</a>
+
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="popUp2">
+         <div class="container">
+            <a onclick="closePopUp2()" class="close__btn">< НАЗАД</a>
+            <h2 class="title">Выберите специалиста</h2>
+            <p class="text">Выберите специалиста что бы перейти в календарь записи на прием</p>
+            <div class="swiper specialists_slider">
+               <div class="swiper-wrapper">
+                  <a onclick="openPopUp3()" class="swiper-slide">
+                     <img src="img/specialist-1.png" alt="specialist" />
+                     <p class="specialists_name">
+                        Власова <br />
+                        Елена Евгеньевна
+                     </p>
+                     <span class="specialists_info">Врач - косметолог</span>
+                  </a>
+                  <a onclick="openPopUp3()" class="swiper-slide">
+                     <img src="img/specialist-2.png" alt="specialist" />
+                     <p class="specialists_name">
+                        Власова <br />
+                        Елена Евгеньевна
+                     </p>
+                     <span class="specialists_info">Врач - косметолог</span>
+                  </a>
+                  <a onclick="openPopUp3()" class="swiper-slide">
+                     <img src="img/specialist-3.png" alt="specialist" />
+                     <p class="specialists_name">
+                        Власова <br />
+                        Елена Евгеньевна
+                     </p>
+                     <span class="specialists_info">Врач - косметолог</span>
+                  </a>
+                  <a onclick="openPopUp3()" class="swiper-slide">
+                     <img src="img/specialist-3.png" alt="specialist" />
+                     <p class="specialists_name">
+                        Власова <br />
+                        Елена Евгеньевна
+                     </p>
+                     <span class="specialists_info">Врач - косметолог</span>
+                  </a>
+               </div>
+            </div>
+            <div class="swiper_bottom">
+               <div class="swiper-pagination"></div>
+               <div class="progress progress5">
+                  <div class="progress__bar"></div>
+               </div>
+               <div class="swiper-button-prev specialists_prev"></div>
+               <div class="swiper-button-next specialists_next"></div>
+            </div>
+            <img src="img/popUp2-img.svg" alt="" class="popUp2-img" />
+         </div>
+      </div>
+      <div class="popUp3">
+         <div class="container">
+            <a onclick="closePopUp3()" class="close__btn">< НАЗАД</a>
+            <h2 class="title">Выберите удобное для вас время<br />записи на консультацию или прием</h2>
+            <div class="popUp__content">
+               <div class="left__side">
+                  <div class="buttons-side">
+                     <a href="#" class="save__btn">Сохранить</a>
+                     <a href="#" class="cancel__btn">Отменить</a>
+                  </div>
+                  <div class="swiper-slide">
+                     <img src="img/specialist-2.png" alt="specialist" />
+                     <p class="specialists_name">
+                        Власова <br />
+                        Елена Евгеньевна
+                     </p>
+                     <span class="specialists_info">Врач - косметолог</span>
+                  </div>
+                  <a onclick="closePopUp3()" class="another">Другой специалист</a>
+               </div>
+               <div class="right__side">
+                  <h2 class="side__title">*Календарь интегрирован с внешней системой “Архимед”</h2>
+                  <div class="table">
+                     <div class="col">
+                        <p class="col__title">пн 7</p>
+                        <a onclick="openPopUp4()" class="col__item">10:00</a>
+                        <a onclick="openPopUp4()" class="col__item">10:30</a>
+                        <a onclick="openPopUp4()" class="col__item">11:00</a>
+                        <a onclick="openPopUp4()" class="col__item">11:30</a>
+                        <a onclick="openPopUp4()" class="col__item">12:00</a>
+                        <a onclick="openPopUp4()" class="col__item">12:30</a>
+                        <a onclick="openPopUp4()" class="col__item">13:30</a>
+                        <a onclick="openPopUp4()" class="col__item">14:00</a>
+                        <a onclick="openPopUp4()" class="col__item">14:30</a>
+                        <a onclick="openPopUp4()" class="col__item">15:00</a>
+                        <a onclick="openPopUp4()" class="col__item">15:30</a>
+                        <a onclick="openPopUp4()" class="col__item">16:00</a>
+                     </div>
+                     <div class="col">
+                        <p class="col__title">пн 8</p>
+                        <a onclick="openPopUp4()" class="col__item">10:00</a>
+                        <a onclick="openPopUp4()" class="col__item">10:30</a>
+                        <a onclick="openPopUp4()" class="col__item">11:00</a>
+                        <a onclick="openPopUp4()" class="col__item">11:30</a>
+                        <a onclick="openPopUp4()" class="col__item">12:00</a>
+                        <a onclick="openPopUp4()" class="col__item">12:30</a>
+                        <a onclick="openPopUp4()" class="col__item">13:30</a>
+                        <a onclick="openPopUp4()" class="col__item">14:00</a>
+                        <a onclick="openPopUp4()" class="col__item">14:30</a>
+                        <a onclick="openPopUp4()" class="col__item">15:00</a>
+                        <a onclick="openPopUp4()" class="col__item">15:30</a>
+                        <a onclick="openPopUp4()" class="col__item">16:00</a>
+                     </div>
+                     <div class="col">
+                        <p class="col__title">пн 9</p>
+                        <a onclick="openPopUp4()" class="col__item">10:00</a>
+                        <a onclick="openPopUp4()" class="col__item">10:30</a>
+                        <a onclick="openPopUp4()" class="col__item">11:00</a>
+                        <a onclick="openPopUp4()" class="col__item">11:30</a>
+                        <a onclick="openPopUp4()" class="col__item">12:00</a>
+                        <a onclick="openPopUp4()" class="col__item">12:30</a>
+                        <a onclick="openPopUp4()" class="col__item">13:30</a>
+                        <a onclick="openPopUp4()" class="col__item">14:00</a>
+                        <a onclick="openPopUp4()" class="col__item">14:30</a>
+                        <a onclick="openPopUp4()" class="col__item">15:00</a>
+                        <a onclick="openPopUp4()" class="col__item">15:30</a>
+                        <a onclick="openPopUp4()" class="col__item">16:00</a>
+                     </div>
+                     <div class="col">
+                        <p class="col__title">пн 10</p>
+                        <a onclick="openPopUp4()" class="col__item">10:00</a>
+                        <a onclick="openPopUp4()" class="col__item">10:30</a>
+                        <a onclick="openPopUp4()" class="col__item">11:00</a>
+                        <a onclick="openPopUp4()" class="col__item">11:30</a>
+                        <a onclick="openPopUp4()" class="col__item">12:00</a>
+                        <a onclick="openPopUp4()" class="col__item">12:30</a>
+                        <a onclick="openPopUp4()" class="col__item">13:30</a>
+                        <a onclick="openPopUp4()" class="col__item">14:00</a>
+                        <a onclick="openPopUp4()" class="col__item">14:30</a>
+                        <a onclick="openPopUp4()" class="col__item">15:00</a>
+                        <a onclick="openPopUp4()" class="col__item">15:30</a>
+                        <a onclick="openPopUp4()" class="col__item">16:00</a>
+                     </div>
+                     <div class="col">
+                        <p class="col__title">пн 11</p>
+                        <a onclick="openPopUp4()" class="col__item">10:00</a>
+                        <a onclick="openPopUp4()" class="col__item">10:30</a>
+                        <a onclick="openPopUp4()" class="col__item">11:00</a>
+                        <a onclick="openPopUp4()" class="col__item">11:30</a>
+                        <a onclick="openPopUp4()" class="col__item">12:00</a>
+                        <a onclick="openPopUp4()" class="col__item">12:30</a>
+                        <a onclick="openPopUp4()" class="col__item">13:30</a>
+                        <a onclick="openPopUp4()" class="col__item">14:00</a>
+                        <a onclick="openPopUp4()" class="col__item">14:30</a>
+                        <a onclick="openPopUp4()" class="col__item">15:00</a>
+                        <a onclick="openPopUp4()" class="col__item">15:30</a>
+                        <a onclick="openPopUp4()" class="col__item">16:00</a>
+                     </div>
+                     <div class="col">
+                        <p class="col__title">пн 12</p>
+                        <a onclick="openPopUp4()" class="col__item">10:00</a>
+                        <a onclick="openPopUp4()" class="col__item">10:30</a>
+                        <a onclick="openPopUp4()" class="col__item">11:00</a>
+                        <a onclick="openPopUp4()" class="col__item">11:30</a>
+                        <a onclick="openPopUp4()" class="col__item">12:00</a>
+                        <a onclick="openPopUp4()" class="col__item">12:30</a>
+                        <a onclick="openPopUp4()" class="col__item">13:30</a>
+                        <a onclick="openPopUp4()" class="col__item">14:00</a>
+                        <a onclick="openPopUp4()" class="col__item">14:30</a>
+                        <a onclick="openPopUp4()" class="col__item">15:00</a>
+                        <a onclick="openPopUp4()" class="col__item">15:30</a>
+                        <a onclick="openPopUp4()" class="col__item">16:00</a>
+                     </div>
+                     <div class="col">
+                        <p class="col__title">пн 13</p>
+                        <a onclick="openPopUp4()" class="col__item">10:00</a>
+                        <a onclick="openPopUp4()" class="col__item">10:30</a>
+                        <a onclick="openPopUp4()" class="col__item">11:00</a>
+                        <a onclick="openPopUp4()" class="col__item">11:30</a>
+                        <a onclick="openPopUp4()" class="col__item">12:00</a>
+                        <a onclick="openPopUp4()" class="col__item">12:30</a>
+                        <a onclick="openPopUp4()" class="col__item">13:30</a>
+                        <a onclick="openPopUp4()" class="col__item">14:00</a>
+                        <a onclick="openPopUp4()" class="col__item">14:30</a>
+                        <a onclick="openPopUp4()" class="col__item">15:00</a>
+                        <a onclick="openPopUp4()" class="col__item">15:30</a>
+                        <a onclick="openPopUp4()" class="col__item">16:00</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="popUp4">
+         <div class="container">
+            <a onclick="closePopUp4()" class="close__btn">< НАЗАД</a>
+            <h2 class="title">Спасибо за запись!</h2>
+            <p class="text">С этой услугой наши врачи рекомендуют следующие косметические средства</p>
+            <div class="recomendations_slider">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                     <img src="img/recomendations.png" alt="product" />
+                     <p>Holy Land Cosmetics B First Anti-Age Gel Soap</p>
+                     <a href="#" class="btn">ЗАКАЗАТЬ</a>
+                  </div>
+                  <div class="swiper-slide">
+                     <img src="img/recomendations.png" alt="product" />
+                     <p>Holy Land Cosmetics B First Anti-Age Gel Soap</p>
+                     <a href="#" class="btn">ЗАКАЗАТЬ</a>
+                  </div>
+                  <div class="swiper-slide">
+                     <img src="img/recomendations.png" alt="product" />
+                     <p>Holy Land Cosmetics B First Anti-Age Gel Soap</p>
+                     <a href="#" class="btn">ЗАКАЗАТЬ</a>
+                  </div>
+                  <div class="swiper-slide">
+                     <img src="img/recomendations.png" alt="product" />
+                     <p>Holy Land Cosmetics B First Anti-Age Gel Soap</p>
+                     <a href="#" class="btn">ЗАКАЗАТЬ</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="panel-fixed">
+         <div class="container"></div>
+      </div>
+      <div class="form-popUp">
+         <form action="#" class="zap">
+            <a onclick="closeForm()" class="close_form">
+               <img src="img/close.svg" alt="" class="close_form" />
+            </a>
+            <input type="text" placeholder="Имя" />
+            <input type="tel" placeholder="Телефон" />
+            <p class="zap__text">Размер предоплаты за консультацию 350-700 р, предоплата за повторную запись 1000р</p>
+            <button type="submit">Отправить</button>
+         </form>
+      </div>
+      <header class="header">
+         <img src="img/leaf-1.png" alt="leaf" class="leaf_1" id="leaf_1" />
+         <img src="img/leaf-2.png" alt="leaf" class="leaf_2" id="leaf_2" />
+         <img src="img/leaf-3.png" alt="leaf" class="leaf_3" id="leaf_3" />
+         <div class="container">
+            <a href="index.html" class="logo">
+               <h2 data-aos-delay="300"><nobr>VL - CLINIC</nobr></h2>
+               <h3 data-aos-delay="400">ЦЕНТР КОСМЕТОЛОГИИ</h3>
+            </a>
+            <div class="header_inner">
+               <div class="header_right">
+                  <nav class="nav">
+
+                     <ul>
+                        <a href="index.html" class="logo">
+                           <h2 data-aos-delay="0"><nobr>VL - CLINIC</nobr></h2>
+                           <h3 data-aos-delay="0">ЦЕНТР КОСМЕТОЛОГИИ</h3>
+                        </a>
+                        <li>
+                           <a class="navbtnToactive" href="#single_aside">Услуги</a>
+                        </li>
+
+                        <li>
+                           <a class="navbtnToactive" href="index.html#clinic">О нас</a>
+                        </li>
+                        <li>
+                           <a class="navbtnToactive" href="#footer">Контакты</a>
+                        </li>
+                        <li>
+                           <a class="navbtnToactive" href="index.html#recomendations">Интернет магазин</a>
+                        </li>
+                     </ul>
+                  </nav>
+                  <div class="shadow"></div>
+
+                  <div class="nav_toggle">
+                     <span class="nav_toggle-item"></span>
+                  </div>
+                  <div class="header_contacts" data-aos="fade-down">
+                     <a href="#" class="tel">8 (3012) 37 80 47</a>
+                     <a href="#">
+                        <img src="img/phone.svg" alt="phone" />
+                     </a>
+                     <a href="#">
+                        <img src="img/geo.svg" alt="geo" />
+                     </a>
+                  </div>
+                  <div class="header_slider" style="overflow: hidden">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                           <h2 data-aos="fade-down" data-aos-delay="300"><nobr>VL - CLINIC</nobr></h2>
+                           <h3 data-aos="fade-down" data-aos-delay="400">ЦЕНТР КОСМЕТОЛОГИИ</h3>
+                           <p data-aos="fade-down" data-aos-delay="500">
+                              Эстетическая косметология лица и тела с использованием оборудования
+                              <span>экспертного класса</span>
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <main>
+         <section class="single" id="single">
+            <div class="container">
+               <div class="single_inner">
+                  <aside class="single_aside" id="single_aside">
+                     <h2 class="title">ВЫБЕРИТЕ УСЛУГУ</h2>
+                     <div id="accordion" style="border: none">
+                        <div class="serv">
+                           <li class="item-list-open"><span>NEW!</span> Безоперационная<br />интимная пластика</li>
+                        </div>
+                        <div class="content-serv">
+                           <a href="#" class="acc-link"> Омоложение на лазере Affirm </a>
+                           <a href="#" class="acc-link"> Омоложение на лазере Light Sheer </a>
+                           <a href="#" class="acc-link"> Коррекция растяжек </a>
+                           <a href="#" class="acc-link"> Удаление пигментных пятен </a>
+                        </div>
+                        <div class="serv">
+                           <li class="item-list-open">
+                              <span>SPRS</span>-ТЕРАПИЯ<br />
+                              (клеточное омоложение)
+                           </li>
+                        </div>
+                        <div class="content-serv">
+                           <a href="#" class="acc-link"> Омоложение на лазере <span>Affirm</span> </a>
+                           <a href="#" class="acc-link"> Омоложение на лазере <span>Sheer</span> </a>
+                           <a href="#" class="acc-link"> Коррекция растяжек </a>
+                           <a href="#" class="acc-link"> Удаление пигментных пятен </a>
+                        </div>
+                        <div class="serv">
+                           <li class="item-list-open"><span>Лазерная косметология</span></li>
+                        </div>
+                        <div class="content-serv">
+                           <a href="#" class="acc-link"> Омоложение на лазере Affirm </a>
+                           <a href="#" class="acc-link"> Омоложение на лазере Light Sheer </a>
+                           <a href="#" class="acc-link"> Коррекция растяжек </a>
+                           <a href="#" class="acc-link"> Удаление пигментных пятен </a>
+                        </div>
+                        <div class="serv">
+                           <li class="item-list-open"><span>NEW!</span> Лазерная шлифовка- эрбиевый лазер Affirm Synosure</li>
+                        </div>
+                        <div class="content-serv">
+                           <a href="#" class="acc-link"> Омоложение на лазере Affirm </a>
+                           <a href="#" class="acc-link"> Омоложение на лазере Light Sheer </a>
+                           <a href="#" class="acc-link"> Коррекция растяжек </a>
+                           <a href="#" class="acc-link"> Удаление пигментных пятен </a>
+                        </div>
+                        <div class="serv">
+                           <li class="item-list-open"><span>NEW!</span> Лазерное удаление рубцов</li>
+                        </div>
+                        <div class="content-serv">
+                           <a href="#" class="acc-link"> Омоложение на лазере Affirm </a>
+                           <a href="#" class="acc-link"> Омоложение на лазере Light Sheer </a>
+                           <a href="#" class="acc-link"> Коррекция растяжек </a>
+                           <a href="#" class="acc-link"> Удаление пигментных пятен </a>
+                        </div>
+                        <div class="serv">
+                           <li class="item-list-open"><span>NEW!</span> Лазерная блефаропластика</li>
+                        </div>
+                        <div class="content-serv">
+                           <a href="#" class="acc-link"> Омоложение на лазере Affirm </a>
+                           <a href="#" class="acc-link"> Омоложение на лазере Light Sheer </a>
+                           <a href="#" class="acc-link"> Коррекция растяжек </a>
+                           <a href="#" class="acc-link"> Удаление пигментных пятен </a>
+                        </div>
+                        <div class="serv">
+                           <li class="item-list-open">Косметология</li>
+                        </div>
+                        <div class="content-serv">
+                           <a href="#" class="acc-link"> Омоложение на лазере Affirm </a>
+                           <a href="#" class="acc-link"> Омоложение на лазере Light Sheer </a>
+                           <a href="#" class="acc-link"> Коррекция растяжек </a>
+                           <a href="#" class="acc-link"> Удаление пигментных пятен </a>
+                        </div>
+                        <div class="serv">
+                           <li class="item-list-open">Дерматология</li>
+                        </div>
+                        <div class="content-serv">
+                           <a href="#" class="acc-link"> Омоложение на лазере Affirm </a>
+                           <a href="#" class="acc-link"> Омоложение на лазере Light Sheer </a>
+                           <a href="#" class="acc-link"> Коррекция растяжек </a>
+                           <a href="#" class="acc-link"> Удаление пигментных пятен </a>
+                        </div>
+                        <div class="serv">
+                           <li class="item-list-open">Удаление новообразований (родинки,бородавки, папилломы)</li>
+                        </div>
+                        <div class="content-serv">
+                           <a href="#" class="acc-link"> Омоложение на лазере Affirm </a>
+                           <a href="#" class="acc-link"> Омоложение на лазере Light Sheer </a>
+                           <a href="#" class="acc-link"> Коррекция растяжек </a>
+                           <a href="#" class="acc-link"> Удаление пигментных пятен </a>
+                        </div>
+                        <div class="serv">
+                           <li class="item-list-open">Трихология - лечение выпадения волос и кожи головы</li>
+                        </div>
+                        <div class="content-serv">
+                           <a href="#" class="acc-link"> Омоложение на лазере Affirm </a>
+                           <a href="#" class="acc-link"> Омоложение на лазере Light Sheer </a>
+                           <a href="#" class="acc-link"> Коррекция растяжек </a>
+                           <a href="#" class="acc-link"> Удаление пигментных пятен </a>
+                        </div>
+                        <div class="serv">
+                           <li class="item-list-open">Снижение веса</li>
+                        </div>
+                        <div class="content-serv">
+                           <a href="#" class="acc-link"> Омоложение на лазере Affirm </a>
+                           <a href="#" class="acc-link"> Омоложение на лазере Light Sheer </a>
+                           <a href="#" class="acc-link"> Коррекция растяжек </a>
+                           <a href="#" class="acc-link"> Удаление пигментных пятен </a>
+                        </div>
+                        <div class="serv">
+                           <li class="item-list-open">Карбокситерапия</li>
+                        </div>
+                        <div class="content-serv">
+                           <a href="#" class="acc-link"> Омоложение на лазере Affirm </a>
+                           <a href="#" class="acc-link"> Омоложение на лазере Light Sheer </a>
+                           <a href="#" class="acc-link"> Коррекция растяжек </a>
+                           <a href="#" class="acc-link"> Удаление пигментных пятен </a>
+                        </div>
+                        <div class="serv">
+                           <li class="item-list-open">Карбокситерапия при остеохандрозе, лечении суставов</li>
+                        </div>
+                        <div class="content-serv">
+                           <a href="#" class="acc-link"> Омоложение на лазере Affirm </a>
+                           <a href="#" class="acc-link"> Омоложение на лазере Light Sheer </a>
+                           <a href="#" class="acc-link"> Коррекция растяжек </a>
+                           <a href="#" class="acc-link"> Удаление пигментных пятен </a>
+                        </div>
+                        <div class="serv">
+                           <li class="item-list-open">Лазерная эпиляция</li>
+                        </div>
+                        <div class="content-serv">
+                           <a href="#" class="acc-link"> Омоложение на лазере Affirm </a>
+                           <a href="#" class="acc-link"> Омоложение на лазере Light Sheer </a>
+                           <a href="#" class="acc-link"> Коррекция растяжек </a>
+                           <a href="#" class="acc-link"> Удаление пигментных пятен </a>
+                        </div>
+                        <div class="serv">
+                           <li class="item-list-open">Лаеннек, карбокситерапия, биорезонансная терапия</li>
+                        </div>
+                        <div class="content-serv">
+                           <a href="#" class="acc-link"> Омоложение на лазере Affirm </a>
+                           <a href="#" class="acc-link"> Омоложение на лазере Light Sheer </a>
+                           <a href="#" class="acc-link"> Коррекция растяжек </a>
+                           <a href="#" class="acc-link"> Удаление пигментных пятен </a>
+                        </div>
+                        <div class="serv">
+                           <li class="item-list-open">Медицинский педикюр подология.</li>
+                        </div>
+                        <div class="content-serv">
+                           <a href="#" class="acc-link"> Омоложение на лазере Affirm </a>
+                           <a href="#" class="acc-link"> Омоложение на лазере Light Sheer </a>
+                           <a href="#" class="acc-link"> Коррекция растяжек </a>
+                           <a href="#" class="acc-link"> Удаление пигментных пятен </a>
+                        </div>
+                     </div>
+                  </aside>
+                  <div class="single_info">
+                     <h2 class="title">
+                        Удаление пигментных <br />
+                        пятен (Лазерное)
+                     </h2>
+                     <img src="img/single.png" alt="woman" />
+                     <p class="single_uppertext">Лазерное удаление пигментных пятен</p>
+                     <div class="text">
+                        Как правило, появление пигментных пятен связано со старения кожи, но зачастую это попытка нашего организма защитить себя от
+                        солнечного света избыточной продукцией меланина.
+                        <br />
+                        Цвет пигментного пятна варьирует от темно-желтого до черного. Располагаются они обычно на участках кожи, подвергающихся
+                        длительной инсоляции:
+                        <br /><br />
+                        <ul>
+                           <li>лицо</li>
+                           <li>зона декольте</li>
+                           <li>руки</li>
+                        </ul>
+                        Чаше всего возникновению пигментных пятен подвержены люди со светлой кожей, также появление пятен напрямую зависит от
+                        количества времени проведенном под солнцем с открытой кожей. Часто пигментные пятна появляются даже у молодых людей после
+                        отпуска на юге.
+                        <br /><br />
+                        При возникновении пигментных пятен затрудняется обнаружение рака кожи, также они могут сигнализировать о нарушении обмена
+                        веществ.
+                        <br /><br />
+                        Порой процедура позволяет почувствовать себя уверение, особенно если происходит удаление пигментных пятен на лице.
+                        <br /><br />
+                        Мы, в клинике Rochester удаляем пигментацию на коже (в том числе веснушки) с помощью лазера.
+                        <br /><br />
+                        Большое количество настроек для каждого пациента, учитывая тип кожи, область пигментного пятна и его глубину позволяет
+                        добиться полного удаления пигментного пятна, также это гарантирует отсутствие побочных эффектов после удаления пигментных
+                        пятен, таких как: ожоги, рубцы и изменение цвета кожи.
+                     </div>
+                     <div class="single_block">
+                        <div class="single_block_img">
+                           <img src="img/single-1.png" alt="woman" />
+                        </div>
+                        <p class="text">
+                           Химический пиллинг и удаление жидким азотом
+                           <strong>не могут обеспечить такой эффект</strong>
+                        </p>
+                     </div>
+                     <div class="twentytwenty-container">
+                        <img style="height: 711px" src="img/gallery-3.png" alt="" />
+                        <img style="height: 711px" src="img/gallery-4.png" alt="" />
+                     </div>
+
+                     <div class="text">
+                        *Результат удаления пигментных пятен в клинике Rochester
+                        <br />
+                        Как избавиться от пигментных пятен?
+                        <br /><br />
+                        Чтобы полностью удалить пигментное пятно, необходимо пройти курс лечения, который назначается врачом индивидуально.
+                        <br /><br />
+                        <strong> Процедура отлично подходит даже чувствительной коже лица, реабилитационный период практически отсутствует. </strong>
+                        <br /><br />
+                        Покраснение проходит за 30 минут, 5 дней обработанная поверхность интенсивно отшелушивается и пигментные пятна исчезают.
+                     </div>
+                     <div class="single_bottom" id="price">
+                        <table>
+                           <thead>
+                              <tr>
+                                 <td>Название</td>
+                                 <td>Стоимость</td>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>Пигментное пятно 1 кв.см.</td>
+                                 <td>от 1 000 рублей</td>
+                              </tr>
+                              <tr>
+                                 <td>Пигментное пятно 2 кв.см.</td>
+                                 <td>от 2 000 рублей</td>
+                              </tr>
+                              <tr>
+                                 <td>Пигментное пятно 3 кв.см.</td>
+                                 <td>от 3 000 рублей</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <p>
+                           Записаться на удаление пигментного пятна можно узнать по телефонам
+                           <br />
+                           <a href="#">8 (343) 342-04-32</a>,
+                           <a href="#">8-912-286-12-16</a>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="recomendations" id="recomendations">
+            <img src="img/recom_3.svg" alt="icon" class="recom_3" id="recom_3" />
+            <div class="container">
+               <div class="recomendations_inner">
+                  <img src="img/recom_1.svg" alt="icon" class="recom_1" />
+                  <img src="img/recom_2.svg" alt="icon" class="recom_2" />
+                  <img src="img/recom_4.svg" alt="icon" class="recom_4" id="recom_4" />
+                  <h2 class="title" data-aos="fade-down">
+                     ОСТАЛИСЬ ВОПРОСЫ? <br />
+                     ОСТАВЬТЕ ЗАЯВКУ И МЫ ВАМ <br />
+                     ПЕРЕЗВОНИМ!
+                  </h2>
+                  <form class="form">
+                     <input type="text" placeholder="Имя" />
+                     <input type="text" placeholder="+ 7 ( ___ ) - ___ - ___ - ___" />
+                     <textarea placeholder="Текст сообщения"></textarea>
+                     <div class="form_checkbox">
+                        <input type="checkbox" id="policy" />
+                        <label for="policy"
+                           >Даю согласие на обработку моих персональных данных, в соответствии с <a href="#">Политикой Конфиденциальности</a></label
+                        >
+                     </div>
+                     <button type="submit" class="btn">ОТПРАВИТЬ</button>
+                  </form>
+               </div>
+            </div>
+         </section>
+         <section class="map">
+            <div class="container">
+               <div class="block">
+               </div>
+               <div class="map-img-block">
+                  <img src="img/map.jpg" class="map_img" alt="map" />
+                  <div class="adr">Ул. Бабушкина 166</div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <footer class="footer" id="footer">
+         <img src="img/leaf-2.png" alt="leaf" class="footer_1" id="footer_1" />
+         <img src="img/leaf-3.png" alt="leaf" class="footer_2" id="footer_2" />
+         <div class="container">
+            <div class="footer_inner">
+               <div class="footer_left">
+                  <a href="index.html" class="logo">
+                     <img src="img/logo.svg" alt="logo" />
+                     <a href="#" class="tel">8 (3012) 37 80 47</a>
+                     <a href="#" class="tel">8 (3012) 37 80 47</a>
+                     <a href="#" class="mail">vl_clinic@company.ru</a>
+                     <div class="footer_social">
+                        <a href="#">
+                           <img src="img/social-1.svg" alt="facebook" />
+                        </a>
+                        <a href="#">
+                           <img src="img/social-4.svg" alt="phone" />
+                        </a>
+                        <a href="#">
+                           <img src="img/social-5.svg" alt="telegramm" />
+                        </a>
+                        <a href="#">
+                           <img src="img/social-3.svg" alt="vkontakte" />
+                        </a>
+                     </div>
+                     <a href="#" class="policy"
+                        >Политика <br />
+                        конфиденциальности</a
+                     >
+                     <div class="cards">
+                        <img src="img/cards.svg" alt="cards" />
+                     </div>
+                  </a>
+               </div>
+               <div class="footer_right">
+                  <nav class="footer_nav">
+                     <ul>
+                        <li>
+                           <a href="index.html">Главная</a>
+                        </li>
+                        <li>
+                           <a href="index.html#services">Услуги</a>
+                        </li>
+                        <li>
+                           <a href="index.html#clinic">О нас </a>
+                        </li>
+                        <li>
+                           <a onclick="openNews()">Новости</a>
+                        </li>
+                        <li>
+                           <a href="index.html#footer">Контакты</a>
+                        </li>
+                        <li>
+                           <a href="index.html#consultation">Акции</a>
+                        </li>
+                     </ul>
+                  </nav>
+                  <div class="footer_navigation">
+                     <ul>
+                        <li>
+                           <a href="#">Консультации</a>
+                        </li>
+                        <li>
+                           <a href="#">Название процедуры</a>
+                        </li>
+                        <li>
+                           <a href="#">Название другой процедуры</a>
+                        </li>
+                        <li>
+                           <a href="#">Консультации</a>
+                        </li>
+                        <li>
+                           <a href="#">Название процедуры</a>
+                        </li>
+                        <li>
+                           <a href="#">Название другой процедуры</a>
+                        </li>
+                        <li>
+                           <a href="#">Консультации</a>
+                        </li>
+                        <li>
+                           <a href="#"> Название процедуры</a>
+                        </li>
+                     </ul>
+                     <ul>
+                        <li>
+                           <a href="#">Консультации</a>
+                        </li>
+                        <li>
+                           <a href="#">Название процедуры</a>
+                        </li>
+                        <li>
+                           <a href="#">Название другой процедуры</a>
+                        </li>
+                        <li>
+                           <a href="#">Консультации</a>
+                        </li>
+                        <li>
+                           <a href="#">Название процедуры</a>
+                        </li>
+                        <li>
+                           <a href="#">Название другой процедуры</a>
+                        </li>
+                        <li>
+                           <a href="#">Консультации</a>
+                        </li>
+                        <li>
+                           <a href="#"> Название процедуры</a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+
+      <script src="js/jquery.min.js"></script>
+      <script src="js/lightbox.min.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+      <script src="js/single.js"></script>
+
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+      <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+      <script src="js/jquery.event.move.js"></script>
+      <script src="js/jquery.twentytwenty.js"></script>
+      <script>
+         $(function () {
+            $("#accordion").accordion({
+               collapsible: true,
+               heightStyle: "content",
+            });
+         });
+      </script>
+      <script>
+         $(function () {
+            $(".twentytwenty-container").twentytwenty({ default_offset_pct: 0.7 });
+         });
+      </script>
+
+   </body>
+</html>

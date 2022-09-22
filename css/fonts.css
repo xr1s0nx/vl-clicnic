@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Beatrix Antiqua";
+    src: url("../fonts/BeatrixAntiqua-SemiBold.eot");
+    src: local("Beatrix Antiqua SemiBold"), local("BeatrixAntiqua-SemiBold"),
+        url("../fonts/BeatrixAntiqua-SemiBold.eot?#iefix")
+            format("embedded-opentype"),
+        url("../fonts/BeatrixAntiqua-SemiBold.woff2") format("woff2"),
+        url("../fonts/BeatrixAntiqua-SemiBold.woff") format("woff"),
+        url("../fonts/BeatrixAntiqua-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Beatrix Antiqua";
+    src: url("../fonts/BeatrixAntiqua-SemiBoldItalic.eot");
+    src: local("Beatrix Antiqua SemiBold Italic"),
+        local("BeatrixAntiqua-SemiBoldItalic"),
+        url("../fonts/BeatrixAntiqua-SemiBoldItalic.eot?#iefix")
+            format("embedded-opentype"),
+        url("../fonts/BeatrixAntiqua-SemiBoldItalic.woff2") format("woff2"),
+        url("../fonts/BeatrixAntiqua-SemiBoldItalic.woff") format("woff"),
+        url("../fonts/BeatrixAntiqua-SemiBoldItalic.ttf") format("truetype");
+    font-weight: 600;
+    font-style: italic;
+}

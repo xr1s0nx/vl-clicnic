@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="RU">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <title>VL-CLINIC</title>
+
+      <link rel="stylesheet" href="css/normalize.css" />
+      <link rel="stylesheet" href="css/fonts.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap" rel="stylesheet" />
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+      <link rel="stylesheet" href="css/lightbox.min.css" />
+      <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+      <link rel="stylesheet" href="css/style.css" />
+   </head>
+   <body>
+      <div class="preloader_bg">
+         <div class="preloader">
+            <div class="preloader-ball"></div>
+            <div class="preloader-ball"></div>
+            <div class="preloader-ball"></div>
+            <div class="preloader-ball"></div>
+            <div class="preloader-ball"></div>
+            <div class="preloader-ball"></div>
+            <div class="preloader-ball"></div>
+            <div class="preloader-ball"></div>
+         </div>
+      </div>
+
+      <div class="shadow"></div>
+      <div class="form-popUp">
+         <form action="#" class="zap">
+            <input type="text">
+            <input type="tel">
+            <p class="zap__text">Размер предоплаты за консультацию 350-700 р, предоплата за повторную запись 1000р</p>
+         </form>
+      </div>
+      <header class="header main_header">
+         <!-- <div class="bg-slider">
+            <div class="swiper__wrap">
+               <img src="img/header-bg1.png" alt="" class="swiper-slide header-bg" />
+               <img src="img/header-bg1.png" alt="" class="swiper-slide header-bg" />
+            </div>
+         </div> -->
+         <div class="bg-slider">
+            <div class="swiper-wrapper">
+               <img src="img/header-bg1.png" alt="" class="swiper-slide header-bg" />
+               <img src="img/header-bg2.png" alt="" class="swiper-slide header-bg" />
+            </div>
+         </div>
+         <img src="img/leaf-1.png" alt="leaf" class="leaf_1" id="leaf_1" />
+         <img src="img/leaf-2.png" alt="leaf" class="leaf_2" id="leaf_2" />
+         <img src="img/leaf-3.png" alt="leaf" class="leaf_3" id="leaf_3" />
+         <div class="container">
+            <div class="header_inner">
+               <div class="slider-nav bg-button-prev"></div>
+               <div class="slider-nav bg-button-next"></div>
+               <div class="header_left" data-aos="fade-down">
+                  <a href="#" class="logo">
+                     <img src="img/logo.svg" alt="logo" />
+                  </a>
+               </div>
+               <div class="header_right">
+                  <nav class="nav">
+                     <ul>
+                        <li>
+                           <a href="#">Главная</a>
+                        </li>
+                        <li>
+                           <a href="#">Услуги</a>
+                        </li>
+                        <li>
+                           <a href="#">О нас</a>
+                        </li>
+                        <li>
+                           <a href="#">Новости</a>
+                        </li>
+                        <li>
+                           <a href="#">Контакты</a>
+                        </li>
+                        <li>
+                           <a href="#">Интернет магазин</a>
+                        </li>
+                     </ul>
+                  </nav>
+                  <div class="nav_toggle">
+                     <span class="nav_toggle-item"></span>
+                  </div>
+                  <div class="header_contacts" data-aos="fade-down">
+                     <a href="#" class="tel">8 (3012) 37 80 47</a>
+                     <a href="#">
+                        <img src="img/phone.svg" alt="phone" />
+                     </a>
+                     <a href="#">
+                        <img src="img/geo.svg" alt="geo" />
+                     </a>
+                  </div>
+                  <div class="swiper header_slider">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                           <h2 data-aos="fade-down" data-aos-delay="300"><nobr>VL - CLINIC</nobr></h2>
+                           <h3 data-aos="fade-down" data-aos-delay="400">ЦЕНТР КОСМЕТОЛОГИИ</h3>
+                           <p data-aos="fade-down" data-aos-delay="500">
+                              Эстетическая косметология лица и тела с использованием оборудования
+                              <span>экспертного класса</span>
+                           </p>
+                           <a href="#" class="btn" data-aos="fade-up">ЗАПИСАТЬСЯ НА КОНСУЛЬТАЦИЮ</a>
+                        </div>
+                        <div class="swiper-slide">
+                           <h2><nobr>VL - CLINIC</nobr></h2>
+                           <h3>ЦЕНТР КОСМЕТОЛОГИИ</h3>
+                           <p>
+                              Эстетическая косметология лица и тела с использованием оборудования
+                              <span>экспертного класса</span>
+                           </p>
+                           <a href="#" class="btn">ЗАПИСАТЬСЯ НА КОНСУЛЬТАЦИЮ</a>
+                        </div>
+                     </div>
+                     <div class="swiper_bottom">
+                        <div class="swiper-pagination"></div>
+                        <div class="progress">
+                           <div class="progress__bar"></div>
+                        </div>
+                        <div class="swiper-button-prev header_prev"></div>
+                        <div class="swiper-button-next header_next"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <a href="#services" class="scroll"></a>
+      </header>
+      <main>
+         <section class="services" id="services">
+            <a href="#services" class="scroll top"></a>
+            <img src="img/clinic_1.png" alt="icon" class="services_1" id="services_1" />
+            <div class="container">
+               <div class="services_inner">
+                  <div class="services_left">
+                     <h2 class="title" data-aos="fade-down">ВЫБЕРИТЕ УСЛУГУ</h2>
+                     <p class="uppertext" data-aos="fade-down" data-aos-delay="300">
+                        Нажмите на нужную Вам категорию, <br />
+                        и выберите услугу что бы перейти к записи
+                     </p>
+                     <div class="services_info" data-aos="fade-down" data-aos-delay="400">
+                        <p data-filter="f_1" class="active">Консультация врача дерматокосметолога</p>
+                        <p data-filter="f_2">Эпиляция</p>
+                        <p data-filter="f_3">Биоревитализация</p>
+                        <p data-filter="f_4">Коррекция мимических морщин</p>
+                        <p data-filter="f_5">Омоложение кожи</p>
+                        <p data-filter="f_6">Лечение пигментации</p>
+                        <p data-filter="f_7">Контурное моделирование</p>
+                        <p data-filter="f_8">Плазмолифтинг</p>
+                        <p data-filter="f_9">Чистка лица</p>
+                        <p data-filter="f_10">Уходовые процедуры</p>
+                        <p data-filter="f_11">Лечение АКНЕ</p>
+                        <p data-filter="f_12">Удаление рубцов</p>
+                        <p data-filter="f_2">Трихология</p>
+                        <p data-filter="f_2">Удаление новообразований</p>
+                     </div>
+                  </div>
+                  <div class="services_right">
+                     <div class="services_price active" data-cat="f_1" data-aos="fade-up" data-aos-delay="500">
+                        <p>
+                           <span>Шея</span>
+                           <span>10 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Декольте</span>
+                           <span>12 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Лицо</span>
+                           <span>20 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Шея + Лицо</span>
+                           <span>24 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Декольте +Шея + Лицо</span>
+                           <span>35 000 руб.</span>
+                        </p>
+                     </div>
+                     <div class="services_price" data-cat="f_2">
+                        <p>
+                           <span>2 Шея</span>
+                           <span>10 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Декольте</span>
+                           <span>12 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Лицо</span>
+                           <span>20 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Шея + Лицо</span>
+                           <span>24 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Декольте +Шея + Лицо</span>
+                           <span>35 000 руб.</span>
+                        </p>
+                     </div>
+                     <div class="services_price" data-cat="f_3">
+                        <p>
+                           <span>3 Шея</span>
+                           <span>10 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Декольте</span>
+                           <span>12 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Лицо</span>
+                           <span>20 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Шея + Лицо</span>
+                           <span>24 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Декольте +Шея + Лицо</span>
+                           <span>35 000 руб.</span>
+                        </p>
+                     </div>
+                     <div class="services_price" data-cat="f_4">
+                        <p>
+                           <span>4 Шея</span>
+                           <span>10 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Декольте</span>
+                           <span>12 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Лицо</span>
+                           <span>20 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Шея + Лицо</span>
+                           <span>24 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Декольте +Шея + Лицо</span>
+                           <span>35 000 руб.</span>
+                        </p>
+                     </div>
+                     <div class="services_price" data-cat="f_5">
+                        <p>
+                           <span>5 Шея</span>
+                           <span>10 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Декольте</span>
+                           <span>12 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Лицо</span>
+                           <span>20 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Шея + Лицо</span>
+                           <span>24 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Декольте +Шея + Лицо</span>
+                           <span>35 000 руб.</span>
+                        </p>
+                     </div>
+                     <div class="services_price" data-cat="f_6">
+                        <p>
+                           <span>6 Шея</span>
+                           <span>10 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Декольте</span>
+                           <span>12 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Лицо</span>
+                           <span>20 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Шея + Лицо</span>
+                           <span>24 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Декольте +Шея + Лицо</span>
+                           <span>35 000 руб.</span>
+                        </p>
+                     </div>
+                     <div class="services_price" data-cat="f_7">
+                        <p>
+                           <span>7 Шея</span>
+                           <span>10 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Декольте</span>
+                           <span>12 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Лицо</span>
+                           <span>20 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Шея + Лицо</span>
+                           <span>24 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Декольте +Шея + Лицо</span>
+                           <span>35 000 руб.</span>
+                        </p>
+                     </div>
+                     <div class="services_price" data-cat="f_8">
+                        <p>
+                           <span>8 Шея</span>
+                           <span>10 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Декольте</span>
+                           <span>12 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Лицо</span>
+                           <span>20 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Шея + Лицо</span>
+                           <span>24 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Декольте +Шея + Лицо</span>
+                           <span>35 000 руб.</span>
+                        </p>
+                     </div>
+                     <div class="services_price" data-cat="f_9">
+                        <p>
+                           <span>9 Шея</span>
+                           <span>10 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Декольте</span>
+                           <span>12 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Лицо</span>
+                           <span>20 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Шея + Лицо</span>
+                           <span>24 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Декольте +Шея + Лицо</span>
+                           <span>35 000 руб.</span>
+                        </p>
+                     </div>
+                     <div class="services_price" data-cat="f_10">
+                        <p>
+                           <span>10 Шея</span>
+                           <span>10 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Декольте</span>
+                           <span>12 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Лицо</span>
+                           <span>20 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Шея + Лицо</span>
+                           <span>24 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Декольте +Шея + Лицо</span>
+                           <span>35 000 руб.</span>
+                        </p>
+                     </div>
+                     <div class="services_price" data-cat="f_11">
+                        <p>
+                           <span>11 Шея</span>
+                           <span>10 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Декольте</span>
+                           <span>12 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Лицо</span>
+                           <span>20 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Шея + Лицо</span>
+                           <span>24 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Декольте +Шея + Лицо</span>
+                           <span>35 000 руб.</span>
+                        </p>
+                     </div>
+                     <div class="services_price" data-cat="f_12">
+                        <p>
+                           <span>12 Шея</span>
+                           <span>10 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Декольте</span>
+                           <span>12 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Лицо</span>
+                           <span>20 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Шея + Лицо</span>
+                           <span>24 000 руб.</span>
+                        </p>
+                        <p>
+                           <span>Декольте +Шея + Лицо</span>
+                           <span>35 000 руб.</span>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <a href="#clinic" class="scroll"></a>
+         </section>
+         <section class="clinic" id="clinic">
+            <img src="img/clinic_1.png" alt="icon" class="clinic_2" id="clinic_2" />
+            <div class="container">
+               <h2 class="title" data-aos="fade-down">
+                  VL — КЛИНИКА МОЛОДОСТИ <br />
+                  И КРАСОТЫ
+               </h2>
+               <div class="clinic_inner">
+                  <p class="clinic_text" data-aos="fade-down" data-aos-delay="300">
+                     VL Clinic– это ведущие клинические центры эстетической медицины в Москве, которые предлагают своим пациентам премиальный сервис и
+                     лучшие anti-age решения по совершенствованию внешности и омоложению, диагностику здоровья на основе принципов превентивной
+                     медицины для поддержания ресурсов организма и повышения качество жизни наших пациентов.
+                     <a href="#" class="more">Показать еще</a>
+                  </p>
+                  <img src="img/clinic.svg" alt="icon" class="clinic_img" />
+               </div>
+            </div>
+         </section>
+         <section class="gallery">
+            <div class="swiper gallery_slider">
+               <div class="swiper-wrapper">
+                  <a href="img/gallery-1.png" data-lightbox="gallery" class="swiper-slide">
+                     <img src="img/gallery-1.png" alt="gallery" />
+                  </a>
+                  <a href="img/gallery-2.png" data-lightbox="gallery" class="swiper-slide">
+                     <img src="img/gallery-2.png" alt="gallery" />
+                  </a>
+                  <a href="img/gallery-3.png" data-lightbox="gallery" class="swiper-slide">
+                     <img src="img/gallery-3.png" alt="gallery" />
+                  </a>
+                  <a href="img/gallery-4.png" data-lightbox="gallery" class="swiper-slide">
+                     <img src="img/gallery-4.png" alt="gallery" />
+                  </a>
+                  <a href="img/product.png" data-lightbox="gallery" class="swiper-slide">
+                     <img src="img/product.png" alt="gallery" />
+                  </a>
+                  <a href="img/gallery-2.png" data-lightbox="gallery" class="swiper-slide">
+                     <img src="img/gallery-2.png" alt="gallery" />
+                  </a>
+                  <a href="img/gallery-3.png" data-lightbox="gallery" class="swiper-slide">
+                     <img src="img/gallery-3.png" alt="gallery" />
+                  </a>
+                  <a href="img/gallery-4.png" data-lightbox="gallery" class="swiper-slide">
+                     <img src="img/gallery-4.png" alt="gallery" />
+                  </a>
+                  <a href="img/gallery-1.png" data-lightbox="gallery" class="swiper-slide">
+                     <img src="img/gallery-1.png" alt="gallery" />
+                  </a>
+                  <a href="img/gallery-1.png" data-lightbox="gallery" class="swiper-slide">
+                     <img src="img/gallery-1.png" alt="gallery" />
+                  </a>
+                  <a href="img/gallery-4.png" data-lightbox="gallery" class="swiper-slide">
+                     <img src="img/gallery-4.png" alt="gallery" />
+                  </a>
+               </div>
+               <div class="container">
+                  <div class="swiper_bottom">
+                     <div class="left-side">
+                        <div class="swiper-pagination"></div>
+
+                        <div class="progress progress2">
+                           <div class="progress__bar"></div>
+                        </div>
+                        <a href="#" class="btn"> ЗАПИСАТЬСЯ НА КОНСУЛЬТАЦИЮ </a>
+                     </div>
+
+                     <div class="buttons">
+                        <div class="swiper-button-prev gallery_slider_prev"></div>
+                        <div class="swiper-button-next gallery_slider_next"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="container">
+               <div class="gallery_top">
+                  <img src="img/ic_1.svg" alt="icon" class="gallery_icon_left" />
+                  <img src="img/ic_2.svg" alt="icon" class="gallery_icon_right" />
+
+                  <img src="img/logo2.svg" alt="logo" class="vl" />
+               </div>
+               <h2 class="title" data-aos="fade-down">
+                  МОЛОДОСТЬ И КРАСОТА <br />
+                  БЕЗ ХИРУРГИЧЕСКОГО ВМЕШАТЕЛЬСТВА
+               </h2>
+               <div class="gallery_inner">
+                  <div class="gallery_left">
+                     <div class="gallery_item">
+                        <div class="gallery_img">
+                           <img src="img/check.svg" alt="check" data-aos="zoom-in" />
+                        </div>
+                        <div class="gallery_info">
+                           <h4 data-aos="fade-down" data-aos-delay="300">Используем новейшее оборудование из США и Германии</h4>
+                           <p data-aos="fade-down" data-aos-delay="400">
+                              В нашей клинике применятся только самое современное оборудование от лидеров отрасли производства косметологической
+                              техники!
+                              <br /><br />
+                              Для процедуры эпиляции, омоложения и отбеливания кожи, лечения акне мы используем новейшие двухволновые лазерыMeDioStar
+                           </p>
+                        </div>
+                     </div>
+                     <div class="gallery_item">
+                        <div class="gallery_img">
+                           <img src="img/check.svg" alt="check" data-aos="zoom-in" data-aos-delay="500" />
+                        </div>
+                        <div class="gallery_info">
+                           <h4 data-aos="fade-down" data-aos-delay="500">Оказываем весь спектр косметологических услуг</h4>
+                           <p data-aos="fade-down" data-aos-delay="600">
+                              Такие как аппаратная косметология на новейшем диодном аппарате MeDioStar, MeDioStar, на аппарате MeDioStar (динамическая
+                              мышечная активация)
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="gallery_right">
+                     <a href="#" class="play_vid">
+                        <img src="img/play-vid.png" alt="" class="play-vid-img" />
+                        Смотреть<br />видео
+                     </a>
+                     <div class="buttons-gal">
+                        <div class="swiper-button-prev product_prev"></div>
+                        <div class="swiper-button-next product_next"></div>
+                     </div>
+
+                     <div class="swiper product_slider">
+                        <div class="swiper-wrapper">
+                           <div class="swiper-slide">
+                              <img src="img/product.png" alt="product" />
+                           </div>
+                        </div>
+                        <div class="swiper_bottom">
+                           <div class="swiper-pagination"></div>
+                           <div class="progress progress3">
+                              <div class="progress__bar"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <img src="img/gallery.png" alt="product" class="gallery_right_bg" />
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="certificates" id="certificates">
+            <img src="img/leaf-1.png" alt="leaf" class="cert_1" id="cert_1" />
+            <img src="img/leaf-2.png" alt="leaf" class="cert_2" id="cert_2" />
+            <img src="img/leaf-3.png" alt="leaf" class="cert_3" id="cert_3" />
+            <img src="img/leaf-1.png" alt="leaf" class="cert_4" id="cert_4" />
+            <a href="#certificates" class="scroll top"></a>
+            <div class="container">
+               <h2 class="title" data-aos="fade-down">НАШИ СЕРТИФИКАТЫ</h2>
+               <div class="swiper certificates_slider">
+                  <div class="swiper-wrapper">
+                     <a href="img/certificates-1.png" data-lightbox="certificates" class="swiper-slide">
+                        <img src="img/certificates-1.png" alt="gallery" />
+                     </a>
+                     <a href="img/certificates-2.png" data-lightbox="certificates" class="swiper-slide">
+                        <img src="img/certificates-2.png" alt="gallery" />
+                     </a>
+                     <a href="img/certificates-3.png" data-lightbox="certificates" class="swiper-slide">
+                        <img src="img/certificates-3.png" alt="gallery" />
+                     </a>
+                     <a href="img/certificates-2.png" data-lightbox="certificates" class="swiper-slide">
+                        <img src="img/certificates-2.png" alt="gallery" />
+                     </a>
+                  </div>
+                  <div class="swiper_bottom">
+                     <div class="swiper-pagination"></div>
+                     <div class="progress progress4">
+                        <div class="progress__bar"></div>
+                     </div>
+                     <div class="swiper-button-prev certificates_prev"></div>
+                     <div class="swiper-button-next certificates_next"></div>
+                  </div>
+               </div>
+               <a href="#" class="certificates_more">Все сертификаты</a>
+            </div>
+            <a href="#specialists" class="scroll"></a>
+         </section>
+         <section class="specialists" id="specialists">
+            <img src="img/leaf-2.png" alt="leaf" class="spec_1" id="spec_1" />
+            <div class="container">
+               <h2 class="title" data-aos="fade-down">НАШИ СПЕЦИАЛИСТЫ</h2>
+               <div class="swiper specialists_slider">
+                  <div class="swiper-wrapper">
+                     <div class="swiper-slide">
+                        <img src="img/specialist-1.png" alt="specialist" />
+                        <p class="specialists_name">
+                           Власова <br />
+                           Елена Евгеньевна
+                        </p>
+                        <span class="specialists_info">Врач - косметолог</span>
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="img/specialist-2.png" alt="specialist" />
+                        <p class="specialists_name">
+                           Власова <br />
+                           Елена Евгеньевна
+                        </p>
+                        <span class="specialists_info">Врач - косметолог</span>
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="img/specialist-3.png" alt="specialist" />
+                        <p class="specialists_name">
+                           Власова <br />
+                           Елена Евгеньевна
+                        </p>
+                        <span class="specialists_info">Врач - косметолог</span>
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="img/specialist-3.png" alt="specialist" />
+                        <p class="specialists_name">
+                           Власова <br />
+                           Елена Евгеньевна
+                        </p>
+                        <span class="specialists_info">Врач - косметолог</span>
+                     </div>
+                  </div>
+                  <div class="swiper_bottom">
+                     <div class="swiper-pagination"></div>
+                     <div class="progress progress5">
+                        <div class="progress__bar"></div>
+                     </div>
+                     <div class="swiper-button-prev specialists_prev"></div>
+                     <div class="swiper-button-next specialists_next"></div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="consultation">
+            <div class="container">
+               <div class="consultation_inner">
+                  <h2 class="title">ЗАПИСАТЬСЯ НА КОНСУЛЬТАЦИЮ</h2>
+                  <p class="uppertext">На первичной консультации Вы:</p>
+                  <div class="text">
+                     <ul>
+                        <li>Познакомитесь со специалистом лично и зададите ему все интересующие вопросы</li>
+                        <li>Сделаете диагностику состояния лица и кожных покрово, в том числе и с при-менением аппаратного 3D - анализа</li>
+                        <li>Узнаете какая из процедур подойдет в Вашем случае и составить план лечения</li>
+                        <li>Подберете средства и получите рекомендации для домашнего ухода</li>
+                     </ul>
+                  </div>
+                  <a href="#" class="btn">ЗАПИСАТЬСЯ НА КОНСУЛЬТАЦИЮ</a>
+                  <div class="consultation_bottom">
+                     <p>Или по телефону</p>
+                     <a href="#"> 8 (3012) 37 80 47</a>
+                  </div>
+               </div>
+               <div class="services_price" data-cat="f_1">
+                  <p>
+                     <span>6 Шея</span>
+                     <span>10 000 руб.</span>
+                  </p>
+                  <p>
+                     <span>Декольте</span>
+                     <span>12 000 руб.</span>
+                  </p>
+                  <p>
+                     <span>Лицо</span>
+                     <span>20 000 руб.</span>
+                  </p>
+                  <p>
+                     <span>Шея + Лицо</span>
+                     <span>24 000 руб.</span>
+                  </p>
+                  <p>
+                     <span>Декольте +Шея + Лицо</span>
+                     <span>35 000 руб.</span>
+                  </p>
+               </div>
+            </div>
+            <a href="#recomendations" class="scroll"></a>
+         </section>
+         <section class="recomendations" id="recomendations">
+            <img src="img/recom_3.svg" alt="icon" class="recom_3" id="recom_3" />
+            <div class="container">
+               <div class="recomendations_inner">
+                  <img src="img/recom_1.svg" alt="icon" class="recom_1" />
+                  <img src="img/recom_2.svg" alt="icon" class="recom_2" />
+                  <img src="img/recom_4.svg" alt="icon" class="recom_4" id="recom_4" />
+                  <h2 class="title">
+                     СПЕЦИАЛИСТЫ <br />
+                     РЕКОМЕНДУЮТ
+                  </h2>
+                  <div class="swiper recomendations_slider">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                           <img src="img/recomendations.png" alt="product" />
+                           <p>Holy Land Cosmetics B First Anti-Age Gel Soap</p>
+                           <a href="#" class="btn">ЗАКАЗАТЬ</a>
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="img/recomendations.png" alt="product" />
+                           <p>Holy Land Cosmetics B First Anti-Age Gel Soap</p>
+                           <a href="#" class="btn">ЗАКАЗАТЬ</a>
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="img/recomendations.png" alt="product" />
+                           <p>Holy Land Cosmetics B First Anti-Age Gel Soap</p>
+                           <a href="#" class="btn">ЗАКАЗАТЬ</a>
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="img/recomendations.png" alt="product" />
+                           <p>Holy Land Cosmetics B First Anti-Age Gel Soap</p>
+                           <a href="#" class="btn">ЗАКАЗАТЬ</a>
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="img/recomendations.png" alt="product" />
+                           <p>Holy Land Cosmetics B First Anti-Age Gel Soap</p>
+                           <a href="#" class="btn">ЗАКАЗАТЬ</a>
+                        </div>
+                     </div>
+                     <div class="swiper_bottom">
+                        <div class="swiper-pagination"></div>
+                        <div class="progress progress6">
+                           <div class="progress__bar"></div>
+                        </div>
+                        <div class="swiper-button-prev recomendations_prev"></div>
+                        <div class="swiper-button-next recomendations_next"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="map">
+            <div class="container">
+               <div class="block">
+                  <div class="adr">Ул. Бабушкина 166</div>
+                  <div class="adr">Ул. Бабушкина 166</div>
+                  <div class="adr">Ул. Бабушкина 166</div>
+               </div>
+            </div>
+
+            <img src="img/map.png" class="map_img" alt="map" />
+         </section>
+      </main>
+      <footer class="footer">
+         <img src="img/leaf-2.png" alt="leaf" class="footer_1" id="footer_1" />
+         <img src="img/leaf-3.png" alt="leaf" class="footer_2" id="footer_2" />
+         <div class="container">
+            <div class="footer_inner">
+               <div class="footer_left">
+                  <a href="#" class="logo">
+                     <img src="img/logo.png" alt="logo" />
+                     <a href="#" class="tel">8 (3012) 37 80 47</a>
+                     <a href="#" class="tel">8 (3012) 37 80 47</a>
+                     <a href="#" class="mail">vl_clinic@company.ru</a>
+                     <div class="footer_social">
+                        <a href="#">
+                           <img src="img/social-1.svg" alt="facebook" />
+                        </a>
+                        <a href="#">
+                           <img src="img/social-4.svg" alt="phone" />
+                        </a>
+                        <a href="#">
+                           <img src="img/social-5.svg" alt="telegramm" />
+                        </a>
+                        <a href="#">
+                           <img src="img/social-2.svg" alt="instagramm" />
+                        </a>
+                        <a href="#">
+                           <img src="img/social-3.svg" alt="vkontakte" />
+                        </a>
+                     </div>
+                     <a href="#" class="policy"
+                        >Политика <br />
+                        конфиденциальности</a
+                     >
+                     <div class="cards">
+                        <img src="img/cards.svg" alt="cards" />
+                     </div>
+                  </a>
+               </div>
+               <div class="footer_right">
+                  <nav class="footer_nav">
+                     <ul>
+                        <li>
+                           <a href="#">Главная</a>
+                        </li>
+                        <li>
+                           <a href="#">Услуги</a>
+                        </li>
+                        <li>
+                           <a href="#">О нас </a>
+                        </li>
+                        <li>
+                           <a href="#">Новости</a>
+                        </li>
+                        <li>
+                           <a href="#">Контакты</a>
+                        </li>
+                        <li>
+                           <a href="#">Акции</a>
+                        </li>
+                     </ul>
+                  </nav>
+                  <div class="footer_navigation">
+                     <ul>
+                        <li>
+                           <a href="#">Консультации</a>
+                        </li>
+                        <li>
+                           <a href="#">Название процедуры</a>
+                        </li>
+                        <li>
+                           <a href="#">Название другой процедуры</a>
+                        </li>
+                        <li>
+                           <a href="#">Консультации</a>
+                        </li>
+                        <li>
+                           <a href="#">Название процедуры</a>
+                        </li>
+                        <li>
+                           <a href="#">Название другой процедуры</a>
+                        </li>
+                        <li>
+                           <a href="#">Консультации</a>
+                        </li>
+                        <li>
+                           <a href="#"> Название процедуры</a>
+                        </li>
+                     </ul>
+                     <ul>
+                        <li>
+                           <a href="#">Консультации</a>
+                        </li>
+                        <li>
+                           <a href="#">Название процедуры</a>
+                        </li>
+                        <li>
+                           <a href="#">Название другой процедуры</a>
+                        </li>
+                        <li>
+                           <a href="#">Консультации</a>
+                        </li>
+                        <li>
+                           <a href="#">Название процедуры</a>
+                        </li>
+                        <li>
+                           <a href="#">Название другой процедуры</a>
+                        </li>
+                        <li>
+                           <a href="#">Консультации</a>
+                        </li>
+                        <li>
+                           <a href="#"> Название процедуры</a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+
+      <script src="js/jquery.min.js"></script>
+      <script src="js/lightbox.min.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+      <script src="https://unpkg.com/cocoen/dist/cocoen.js"></script>
+      <script src="js/main.js"></script>
+   </body>
+</html>
