@@ -633,7 +633,7 @@ li {
 
 .header_inner {
    position: relative;
-   max-width: 700px;
+   max-width: 555px;
    margin-left: auto;
    display: -webkit-box;
    display: -ms-flexbox;
@@ -697,7 +697,7 @@ li {
 .nav ul li a {
    color: #535a64;
    font-weight: 500;
-   font-size: 18px;
+   font-size: 14px;
    line-height: 22px;
    letter-spacing: -0.01em;
    color: #535a64;
@@ -756,7 +756,6 @@ li {
    margin: 0;
    position: relative;
    z-index: 3;
-   margin-left: 100px;
 }
 
 .header_slider .btn {
